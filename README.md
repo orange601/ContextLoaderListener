@@ -1,4 +1,7 @@
 # ContextLoaderListener
+
+**출처: http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=80097770192**
+
 ContextLoaderListener란?
 
 - Spring에서 DispatcherServlet은 그 자체로서 서블릿 이기 때문에 1개 이상의 DispatcherServlet을 설정하는 것이가능하다. 
@@ -69,4 +72,4 @@ root컨텍스트를 부모로 사용하는 자식 컨텍스트가 된다.
 ContextLoaderListener는 ContextConfigLocation을 명시하지 않으면 /WEB-INF/applicationContext.xml을 설정파일로 사용한다.
 이때, 설정파일이 존재하지 않으면 에러가 발생하니 주의해야 한다.
 
-http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=80097770192
+
