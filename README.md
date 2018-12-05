@@ -2,7 +2,14 @@
 
 **출처: http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=80097770192**
 
-ContextLoaderListener란?
+
+**ContextLoaderListener란?**
+
+- context란? 어떤 객체를 접근하기 위한 수단. 포괄적인 의미에 가깝다
+
+- ContextConfigLocation란? config 설정이라는 의미와 location위치의 의미가 합쳐져서 **설정파일 위치** 정도로 보면될것같다.
+
+- ContextLoaderListener는 ContextConfigLocation을 명시하지 않으면 /WEB-INF/applicationContext.xml을 설정파일로 사용한다.
 
 - Spring에서 DispatcherServlet은 그 자체로서 서블릿 이기 때문에 1개 이상의 DispatcherServlet을 설정하는 것이가능하다. 
 
